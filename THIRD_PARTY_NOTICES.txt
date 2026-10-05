@@ -1,0 +1,42 @@
+Farm Tracker / Local DRF Core — Third-party notices
+
+This test package contains only the locally developed Farm_Tracker.dll and
+Local_DRF_Core.dll. It does not include Nexus, the original DRF binary, patched
+third-party binaries, account credentials, player history, or local caches.
+The author's distribution terms for the original DRF remain separate.
+
+Third-party code used by Farm Tracker:
+
+1. Nexus SDK headers
+   Copyright (c) 2023-2025 Raidcore.GG
+   MIT License; full notice: licenses/Nexus-MIT.txt
+   https://github.com/RaidcoreGG/Nexus
+
+2. Dear ImGui (vendored version)
+   Copyright (c) 2014-2021 Omar Cornut
+   MIT License; full notice: licenses/ImGui-MIT.txt
+   https://github.com/ocornut/imgui
+
+3. JSON for Modern C++, version 3.11.3
+   Copyright (c) 2013-2023 Niels Lohmann
+   MIT License; full notice: licenses/nlohmann-json-MIT.txt
+   https://github.com/nlohmann/json
+
+Guild Wars 2 artwork:
+
+Gold, silver and copper icons embedded in Farm Tracker originate from the
+Guild Wars 2 Wiki. Guild Wars 2 content and materials are copyright ArenaNet,
+LLC. These icons are used to display in-game currency, and are not declared
+original artwork or licensed under the MIT licenses above.
+
+https://wiki.guildwars2.com/images/d/d1/Gold_coin.png
+https://wiki.guildwars2.com/images/3/3c/Silver_coin.png
+https://wiki.guildwars2.com/images/e/eb/Copper_coin.png
+
+Other item/currency artwork is retrieved by the addon through the official
+Guild Wars 2 public endpoints when needed, and is not packaged here.
+
+Local DRF Core uses the public Nexus API. Its original DRF compatibility
+dependency remains the property of that dependency's author and must be
+installed separately. This notice does not grant rights to redistribute DRF
+or the authors' other addons.
